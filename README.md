@@ -58,6 +58,6 @@ messages generated in the service.
 Run, in an elevated command line shell:
 
 ```
-PS> .\svcexample.exe uninstall-service myservuce
+PS> .\svcexample.exe uninstall-service myservice
 ```
 
