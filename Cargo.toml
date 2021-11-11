@@ -1,0 +1,20 @@
+[package]
+name = "svcexample"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+duct = { version = "0.13" }
+eventlog = { version = "0.1" }
+figment = { version = "0.10" }
+figment-winreg = { version = "0.1" }
+log = { version = "0.4" }
+qargparser = { version = "0.5.6" }
+registry = { version = "1.0.0-alpha.1" }
+serde = { version = "1", features = ["derive"] }
+windows-service = { version = "0.4" }
+winreg = { version = "0.10" }
+
+# Optional
+dbgtools-win = { version = "0.2", optional = true }
+
